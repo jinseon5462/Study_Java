@@ -1,4 +1,4 @@
-package p20221108_interface;
+package p20221108_interface01;
 
 class Car {
     int speed;

@@ -1,4 +1,4 @@
-package p20221108_interface;
+package p20221108_interface01;
 /*
 추상클래스는 멤버를 가질수 있다.
 

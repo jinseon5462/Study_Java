@@ -1,4 +1,4 @@
-package p20221108_interface;
+package p20221108_interface01;
 
 public class StaticMethodTest2 {
     public static void main(String[] args) {

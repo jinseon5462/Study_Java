@@ -1,4 +1,4 @@
-package p20221108_interface;
+package p20221108_interface01;
 
 // 인터페이스 다중상속
 public class FlyingCar1 implements Drivable, Flyable{

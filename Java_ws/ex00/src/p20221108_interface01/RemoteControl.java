@@ -1,4 +1,4 @@
-package p20221108_interface;
+package p20221108_interface01;
 
 public interface RemoteControl {
     int n = 10; // 인터페이스의 멤버는 상수이다.
