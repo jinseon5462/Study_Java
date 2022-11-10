@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" filepath="$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex00/ex00.iml" filepath="$PROJECT_DIR$/ex00/ex00.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_workspace.iml" filepath="$PROJECT_DIR$/java_workspace.iml" />
-      <module fileurl="file://$PROJECT_DIR$/noticeboard/noticeboard.iml" filepath="$PROJECT_DIR$/noticeboard/noticeboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mySimpleBds/mySimpleBds.iml" filepath="$PROJECT_DIR$/mySimpleBds/mySimpleBds.iml" />
     </modules>
   </component>
 </project>
