@@ -47,6 +47,6 @@ public class BoardVO {
 
     public String toString(){
         return "[게시글 번호 : " + bno + ", 제목 : " + title
-                 + ", 내용 : " + contents + ", 작성자 : " + writer + "]";
+                + ", 내용 : " + contents + ", 작성자 : " + writer + "]";
     }
 }

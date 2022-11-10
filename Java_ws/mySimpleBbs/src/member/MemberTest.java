@@ -18,7 +18,7 @@ public class MemberTest {
             System.out.print("\n메뉴를 선택하세요 : ");
             int selectMenu = sc.nextInt();
             sc.nextLine();
-            
+
             switch(selectMenu) {
                 case 1:
                     // 회원정보 등록
