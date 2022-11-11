@@ -9,33 +9,36 @@ public class BoardDB {
         bList.add(board);
     }
 
-    public ArrayList<BoardVO> select(String title, String writer){
+    public ArrayList<BoardVO> select(String writer){
         ArrayList<BoardVO> list = new ArrayList<>();
         for(int i = 0; i < bList.size(); i++){
-            if(bList.get(i).getTitle().contains(title)){
+            if(bList.get(i).getWriter().contains(writer)){
                 list.add(bList.get(i));
             }
         }
         return list;
     }
 
-    public void update(BoardVO board){
-        for(int i = 0; i < bList.size(); i++){
-            if(bList.get(i).getWriter().equals(board.getWriter())){
-                bList.set(i, board);
+    public void update(int select, String writer, String info){
+        for(BoardVO b : bList){
+            if(b.getWriter().equals(writer) && select == 1){
+                b.setTitle(info);
+            }
+            if(b.getWriter().equals(writer) && select == 2){
+                b.setContents(info);
             }
         }
     }
 
-    public void delete(BoardVO board){
+    public void delete(String writer, String title){
         for(int i = 0; i < bList.size(); i++){
-            if(bList.get(i).getWriter().equals(board.getWriter())){
+            if(bList.get(i).getWriter().equals(writer) && bList.get(i).getTitle().equals(title)){
                 bList.remove(i);
             }
         }
     }
 
-    public void getList(){
-
+    public ArrayList<BoardVO> getList(){
+        return bList;
     }
 }

@@ -71,7 +71,7 @@ public class MemberTest {
                         System.out.println(member);
                     }
                     System.out.println("\n==========================추가 메뉴==========================\n");
-                    System.out.println("1. 회원정보 수정  2. 회원정보 삭제 0. 나가기");
+                    System.out.println("1. 회원정보 수정  2. 회원정보 삭제");
                     System.out.print("Select Menu : ");
                     selectMenu = sc.nextInt();
                     sc.nextLine();
@@ -97,8 +97,6 @@ public class MemberTest {
                             String deleteId = sc.nextLine();
                             service.removeMember(deleteId);
                             break;
-                        case 0:
-
                         default:
                             System.out.println("입력오류입니다.");
                             break;

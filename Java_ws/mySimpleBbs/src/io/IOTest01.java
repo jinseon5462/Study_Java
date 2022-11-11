@@ -19,7 +19,7 @@ public class IOTest01 {
             FileReader fr = new FileReader(file);
 
             int data = 0;
-            while((data = fr.read()) != -1) {
+            while((data = fr.read()) != -1) {   // -1 파일의 끝까지 반복하면서 문자를 하나씩 가져오겠다는뜻이다.
                 System.out.print((char)data);
             }
             fr.close();

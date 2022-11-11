@@ -13,25 +13,25 @@ public class BoardService implements IBoardService{
 
     //Read
     @Override
-    public ArrayList<BoardVO> getBoard(String title, String writer) {
-        return db.select(title, writer);
-    }
-
-    //List
-    @Override
-    public void getBoardList() {
-        db.getList();
+    public ArrayList<BoardVO> getBoard(String writer) {
+        return db.select(writer);
     }
 
     //Update
     @Override
-    public void updateBoard() {
-        //db.update();
+    public void updateBoard(int select, String writer, String info) {
+        db.update(select, writer, info);
     }
 
     //Delete
     @Override
-    public void removeBoard() {
-        //db.delete();
+    public void removeBoard(String writer, String title) {
+        db.delete(writer, title);
+    }
+
+    //List
+    @Override
+    public ArrayList<BoardVO> getBoardList() {
+        return db.getList();
     }
 }
