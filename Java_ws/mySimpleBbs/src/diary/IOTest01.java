@@ -14,10 +14,10 @@ public class IOTest01 {
             String fileName = "diary_" + date + ".txt";
 
             File file = new File("/Users/jinseon/dev/Java_ws/mySimpleBbs/src/diary/" + fileName);
-            FileWriter fw = new FileWriter(file, false);
+            FileWriter fw = new FileWriter(file, true);
             String str = "";
 
-            while(!(str.equalsIgnoreCase("end!"))){
+            while(!(str.equalsIgnoreCase("끝!!"))){
                 str = sc.nextLine();
                 fw.write(str + "\n");
             }

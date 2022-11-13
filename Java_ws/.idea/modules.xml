@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BookManagement/BookManagement.iml" filepath="$PROJECT_DIR$/BookManagement/BookManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" filepath="$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex00/ex00.iml" filepath="$PROJECT_DIR$/ex00/ex00.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_workspace.iml" filepath="$PROJECT_DIR$/java_workspace.iml" />
       <module fileurl="file://$PROJECT_DIR$/mySimpleBbs/mySimpleBbs.iml" filepath="$PROJECT_DIR$/mySimpleBbs/mySimpleBbs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mySimpleBds/mySimpleBds.iml" filepath="$PROJECT_DIR$/mySimpleBds/mySimpleBds.iml" />
     </modules>
   </component>
 </project>
