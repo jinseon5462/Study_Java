@@ -41,9 +41,9 @@ public class DiaryFileDao implements IDao{
         list = new ArrayList<>();
         file = new File(dirPath);
         File[] subfiles = file.listFiles(); //
-        //System.out.println(subfiles.length);
-        //System.out.println(subfiles[1].getName());
-        //System.out.println(dirPath + subfiles[1].getName());
+        System.out.println(subfiles.length);
+        System.out.println(subfiles[1].getName());
+        System.out.println(dirPath + subfiles[1].getName());
         String filePath = "";
         for(int i = 0; i < subfiles.length; i++){
             filePath = dirPath + subfiles[i].getName();
