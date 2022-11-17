@@ -6,7 +6,7 @@ public class Diary {
     private String title;
     private String content;
 
-    public Diary(Date date, String title , String content){
+    public Diary(Date date, String title, String content){
         this.dno = date.toString();
         this.date = date;
         this.title = title;
@@ -19,7 +19,6 @@ public class Diary {
         this.title = title;
         this.content = content;
     }
-
 
     public String getDno() {
         return dno;

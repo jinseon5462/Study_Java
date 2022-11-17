@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class DiaryFileDao implements IDao{
-    private final String dirPath = "/Users/jinseon/diaryDB2/";
+    private final String dirPath = "/Users/jinseon/diaryDB/";
     File file;
     FileReader fr;
     FileWriter fw;  //메인스트림
