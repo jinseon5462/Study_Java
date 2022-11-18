@@ -1,0 +1,24 @@
+public void saveDB() {
+        String path = "/Users/jinseon/dev/Java_ws/exam/src/exam/";
+        ArrayList<MemberVO> list = new ArrayList<>();
+
+        FileOutputStream fos;
+        ObjectOutputStream out;
+        try {
+            fos = new FileOutputStream(path + "memberDB.dat");
+            out = new ObjectOutputStream(fos);
+            Set<String> keys = db.keySet();
+            for(String key : keys){
+                MemberVO member = db.get(key);
+                list.add(member);
+            }
+            for (MemberVO m : list) {
+                out.writeObject(m);
+            }
+        }catch (FileNotFoundException e){
+            throw new RuntimeException(e);
+        }catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}

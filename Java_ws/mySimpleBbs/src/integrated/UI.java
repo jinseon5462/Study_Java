@@ -2,8 +2,8 @@ package integrated;
 
 import bbs.BoardService;
 import bbs.BoardVO;
-import member.MemberService;
-import member.MemberVO;
+import memberproject.MemberService;
+import memberproject.MemberVO;
 
 import java.util.ArrayList;
 import java.util.Scanner;
