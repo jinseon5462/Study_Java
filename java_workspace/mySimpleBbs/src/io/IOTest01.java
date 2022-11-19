@@ -31,5 +31,6 @@ public class IOTest01 {
         System.out.println("........");
         //1. 파일선언
         //2. 파일쓰기(쓰기모드로 파일에 연결)
+
     }
-}//
+}
