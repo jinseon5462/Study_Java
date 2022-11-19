@@ -13,7 +13,7 @@ public class GameUI {
         boolean loop = true;
         int score = 0;
 
-        System.out.println("-----------------------------------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------------------");
         System.out.println();
         System.out.println(service.getMemberName(id) + "님 어서오세요!!");
         do {
@@ -28,7 +28,7 @@ public class GameUI {
                     System.out.println("\n---------------- 👍 Welcom to Up&Down Game! 👎 ----------------");
                     System.out.println("\n [ 랜덤 숫자를 맞춰보세요!! ]");
                     System.out.println("\n [ 기회는 총 10번!! ]");
-                    System.out.println("\n [ 범위는 1 ~ 1000(정수) 까지!! ]");
+                    System.out.println("\n [ 범위는 1 ~ 100(정수) 까지!! ]");
                     System.out.println("\n [ 랜덤 숫자가 지정되었습니다! ]");
                     System.out.println("\n------------------------------------------------------------------");
                     int randomNum = rd.nextInt(10) + 1;
@@ -47,14 +47,19 @@ public class GameUI {
                             System.out.println("\n입력하신 숫자보다 큰 수 입니다...!");
                         }else{
                             System.out.println("\n축하드립니다!! " + i + "번만에 정답!!");
+                            if(i > 5){
+                                score += 10;
+                            }else{
+                                score += 20;
+                            }
                             break;
                         }
-                        if(i >= 10){
+                        if(i > 10){
                             System.out.println("아쉽게도 기회를 전부 소진하셨습니다...");
                         }
-                        score += i * 10;
                     }
                     service.setScore(id, score);
+                    score = 0;
                     break;
                 case 2:
                     // 전체점수 조회하기
