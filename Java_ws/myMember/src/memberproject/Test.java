@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Test {
     public static void main(String[] args) {
         Service service = new Service();
-        final String PATH = "/Users/jinseon/dev/Java_ws/myMember/src/memberproject/";
+        final String PATH = "/Users/jinseon/dev/java_workspace/myMember/src/memberproject/";
 
         //리스트 조회
         ArrayList<MemberVO> list = service.getList();

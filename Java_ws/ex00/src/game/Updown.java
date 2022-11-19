@@ -3,7 +3,7 @@ package game;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Updown {
+public class UpDown {
     public static void main(String[] args) {
         int result;
         int inputNum;

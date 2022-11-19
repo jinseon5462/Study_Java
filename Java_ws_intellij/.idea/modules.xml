@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookManagement/BookManagement.iml" filepath="$PROJECT_DIR$/BookManagement/BookManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" filepath="$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex00/ex00.iml" filepath="$PROJECT_DIR$/ex00/ex00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex01/ex01.iml" filepath="$PROJECT_DIR$/ex01/ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam/exam.iml" filepath="$PROJECT_DIR$/exam/exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myDiary/myDiary.iml" filepath="$PROJECT_DIR$/myDiary/myDiary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myMember/myMember.iml" filepath="$PROJECT_DIR$/myMember/myMember.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mySimpleBbs/mySimpleBbs.iml" filepath="$PROJECT_DIR$/mySimpleBbs/mySimpleBbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practiceproject/practiceproject.iml" filepath="$PROJECT_DIR$/practiceproject/practiceproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practiceproject02/practiceproject02.iml" filepath="$PROJECT_DIR$/practiceproject02/practiceproject02.iml" />
+    </modules>
+  </component>
+</project>

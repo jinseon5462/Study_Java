@@ -13,7 +13,7 @@ public class IOTest01 {
             String date = sc.nextLine();
             String fileName = "diary_" + date + ".txt";
 
-            File file = new File("/Users/jinseon/dev/Java_ws/mySimpleBbs/src/diary/" + fileName);
+            File file = new File("/Users/jinseon/dev/java_workspace/mySimpleBbs/src/diary/" + fileName);
             FileWriter fw = new FileWriter(file, true);
             String str = "";
 

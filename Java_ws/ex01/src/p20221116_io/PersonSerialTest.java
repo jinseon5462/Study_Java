@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 
 public class PersonSerialTest {
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos = new FileOutputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/PersonInfo.sel");
+        FileOutputStream fos = new FileOutputStream("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/PersonInfo.sel");
         ObjectOutputStream out = new ObjectOutputStream(fos);
 
         Person p1 = new Person("홍길동", "서울", 25);
