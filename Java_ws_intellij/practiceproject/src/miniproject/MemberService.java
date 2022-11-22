@@ -6,7 +6,7 @@ public class MemberService implements IMemberService{
     MemberDB db = new MemberDB();
 
     @Override
-    public void regMemeber(Member member) {
+    public void regMember(MemberVO member) {
         db.insert(member);
     }
 
@@ -16,12 +16,12 @@ public class MemberService implements IMemberService{
     }
 
     @Override
-    public Member getScore(String name) {
+    public MemberVO getScore(String name) {
         return db.getScore(name);
     }
 
     @Override
-    public ArrayList<Member> getAllScore() {
+    public ArrayList<MemberVO> getAllScore() {
         return db.selectAll();
     }
 

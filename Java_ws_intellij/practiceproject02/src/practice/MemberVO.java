@@ -50,6 +50,6 @@ public class MemberVO implements Serializable {
 
     @Override
     public String toString() {
-        return "[ 닉네임 : " + name + ", 점수 : " + score +  " ]";
+        return "\n[ 닉네임 : " + name + ", 아이디 : " + id + ", 점수 : " + score +  " ]";
     }
 }

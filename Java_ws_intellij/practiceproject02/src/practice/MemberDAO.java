@@ -64,7 +64,7 @@ public class MemberDAO {
 
     // 파일에 객체정보 저장
     public void saveDB() {
-        String path = "/Users/jinseon/dev/Java_ws/practiceproject02/src/practice/";
+        final String path = "/Users/jinseon/dev/Java_ws/practiceproject02/src/practice/";
 
         FileOutputStream fos;
         ObjectOutputStream out;

@@ -1,12 +1,12 @@
 package miniproject;
 
-public class Member {
+public class MemberVO {
     private String name;
     private String id;
     private String pw;
     private int score;
 
-    public Member(String name, String id, String pw){
+    public MemberVO(String name, String id, String pw){
         this.name = name;
         this.id = id;
         this.pw = pw;

@@ -12,7 +12,7 @@ public class MemberMain {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         Service service = new Service();
-        final String PATH = "/Users/jinseon/dev/Java_ws/myMember/src/memberproject/";
+        final String PATH = "/Users/jinseon/dev/java_workspace/myMember/src/memberproject/";
 
         do{
             System.out.println("============================================");
@@ -93,5 +93,6 @@ public class MemberMain {
                     System.exit(0);
             }
         }while(true);
+        
     }
 }

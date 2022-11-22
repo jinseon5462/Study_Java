@@ -5,9 +5,9 @@ import java.util.StringTokenizer;
 
 public class BufferedWriterTest {
     public static void main(String[] args) throws IOException {
-        FileReader fr = new FileReader("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample_kor.txt/");
+        FileReader fr = new FileReader("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample_kor.txt/");
         BufferedReader br = new BufferedReader(fr);
-        FileWriter fw = new FileWriter("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/output.txt");
+        FileWriter fw = new FileWriter("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/output.txt");
         BufferedWriter bw = new BufferedWriter(fw);
 
         int count = 1;

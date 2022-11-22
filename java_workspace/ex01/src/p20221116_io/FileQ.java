@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileQ {
     public static void main(String[] args) throws IOException {
-        String path = "/Users/jinseon/dev/Java_ws/ex01/src/";
+        String path = "/Users/jinseon/dev/java_workspace/ex01/src/";
         File d = new File(path);
         String fileName = "xxxx.txt";
 

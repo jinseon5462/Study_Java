@@ -11,7 +11,7 @@ public class FileInputStreamTest {
         int inputData = 0;
 
         try {
-            fis = new FileInputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample.txt/");
+            fis = new FileInputStream("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample.txt/");
             //파일에서 1byte씩 데이터를 읽어 정수 코드값을 반환한다.
             //정수 값을 문자형으로 형변환(캐스팅)하여 출력한다.
             while((inputData = fis.read()) != -1){

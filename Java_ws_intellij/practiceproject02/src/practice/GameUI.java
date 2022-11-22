@@ -77,13 +77,14 @@ public class GameUI {
                 case 3:
                     // 개인점수 조회
                     MemberVO member = service.getMember(id);
-                    System.out.println();
                     System.out.println(member);
                     break;
                 case 0:
                     loop = false;
                     out = false;
                     break;
+                default:
+                    System.out.println("오류입니다. 메뉴를 다시 선택해주세요.");
             }
         }while(loop);
         return out;

@@ -4,8 +4,8 @@ import java.io.*;
 
 public class FileTest01 {
     public static void main(String[] args) throws IOException {
-        String fileName = "/Users/jinseon/dev/Java_ws/ex01/src";
-        String path = "/Users/jinseon/dev/Java_ws/ex01/src/";
+        String fileName = "/Users/jinseon/dev/java_workspace/ex01/src";
+        String path = "/Users/jinseon/dev/java_workspace/ex01/src/";
         File d = new File(fileName);
 
         if(!d.exists() || !d.isDirectory()) {

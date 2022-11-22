@@ -42,7 +42,7 @@ public class MemberDB {
     }
 
     public void saveDB() {
-        String path = "/Users/jinseon/dev/Java_ws/exam/src/exam/";
+        String path = "/Users/jinseon/dev/java_workspace/exam/src/exam/";
         ArrayList<MemberVO> list = new ArrayList<>();
 
         FileOutputStream fos;
@@ -71,7 +71,7 @@ public class MemberDB {
     }
 
     public void loadDB(){
-        String path = "/Users/jinseon/dev/Java_ws/exam/src/exam/";
+        String path = "/Users/jinseon/dev/java_workspace/exam/src/exam/";
 
         FileInputStream fis;
         ObjectInputStream in;

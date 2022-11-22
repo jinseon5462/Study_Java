@@ -9,7 +9,7 @@ public class BufferedInputStreamTest {
     public static void main(String[] args) throws IOException {
         int inputData = 0;
         // 파일명을 인수로 하여 스트림(Input) 생성
-        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample.txt/");
+        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/java_ws/ex01/src/p20221116_io/sample.txt/");
         // FileInputStream을 인수로 하여 보조스트림 생성
         // InputStream의 보조이므로 BufferedInputStream임.
         // 버퍼를 사용하는 보조스트림.

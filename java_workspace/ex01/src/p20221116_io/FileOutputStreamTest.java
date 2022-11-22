@@ -7,8 +7,8 @@ import java.io.IOException;
 public class FileOutputStreamTest {
 
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample.txt/");
-        FileOutputStream fos = new FileOutputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample2.txt");
+        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample.txt/");
+        FileOutputStream fos = new FileOutputStream("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample2.txt");
         int input = 0;
         int cnt = 0;
         while((input = fis.read()) != -1) {

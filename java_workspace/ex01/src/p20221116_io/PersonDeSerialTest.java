@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 
 public class PersonDeSerialTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/PersonInfo.txt/");
+        FileInputStream fis = new FileInputStream("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/PersonInfo.txt/");
         ObjectInputStream in = new ObjectInputStream(fis);
 
         Person p1 = (Person)in.readObject();

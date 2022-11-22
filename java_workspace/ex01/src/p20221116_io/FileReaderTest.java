@@ -10,7 +10,7 @@ public class FileReaderTest {
         int inputData = 0;
 
         try {
-            fr = new FileReader("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample_kor.txt/");
+            fr = new FileReader("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample_kor.txt/");
             while((inputData = fr.read()) != -1){
                 System.out.print((char) inputData);
             }

@@ -8,7 +8,7 @@ public class BufferedReaderTest {
     public static void main(String[] args) throws IOException {
         String inputData = null;
 
-        FileReader fr = new FileReader("/Users/jinseon/dev/Java_ws/ex01/src/p20221116_io/sample_kor.txt/");
+        FileReader fr = new FileReader("/Users/jinseon/dev/java_workspace/ex01/src/p20221116_io/sample_kor.txt/");
         BufferedReader br = new BufferedReader(fr);
         //StringBuffer sb = new StringBuffer();
 
