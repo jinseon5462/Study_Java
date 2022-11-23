@@ -2,7 +2,7 @@ package p20221122_jdbc03;
 
 import java.sql.*;
 
-public class SelectAllMain {
+public class SelectAllTest {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Connection conn = null;
         Statement stmt = null;

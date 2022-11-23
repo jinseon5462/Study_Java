@@ -2,7 +2,7 @@ package p20221122_jdbc03;
 
 import java.sql.*;
 
-public class SelcetOneMain {
+public class SelectOneTest {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Connection conn = null;
         Statement stmt = null;
@@ -13,11 +13,12 @@ public class SelcetOneMain {
         String upw = "1234";
         String driver = "org.mariadb.jdbc.Driver";
 
+        String selectOneQuery = "SELECT * FROM member WHERE name = '곽두팔'";
         Class.forName(driver);
         conn = DriverManager.getConnection(url, uid, upw);
         stmt = conn.createStatement();
-        String selectOne_query = "SELECT * FROM member WHERE name LIKE " + "'%씨'";
-        rs = stmt.executeQuery(selectOne_query);
+
+        rs = stmt.executeQuery(selectOneQuery);
 
         while(rs.next()){
             System.out.print(rs.getString("id"));
@@ -29,9 +30,7 @@ public class SelcetOneMain {
             System.out.println(rs.getString("tel"));
         }
         rs.close();
-
-
-
-
+        stmt.close();
+        conn.close();
     }
 }
