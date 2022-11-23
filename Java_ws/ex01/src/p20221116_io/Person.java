@@ -10,8 +10,7 @@ ObjectInput/OutputStream
 직렬화할 객체는 클래스를 정의할때 Serializable이라는 인터페이스를 구현한다고 표시해야 한다.
  */
 
-public class Person implements Serializable {	// Serializable 직렬화한다는 표시만 한다.
-	private static final long serialVersionUID = -5986693535978894756L;
+public class Person implements Serializable {   // Serializable 직렬화한다는 표시만 한다.
 
     String name;
     String city;

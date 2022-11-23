@@ -1,830 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b37f7a-a223-466c-b092-995f9fe213fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookManagement/BookManagement.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/EmployeeMangement.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/main/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/service/DBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/service/IDBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/vo/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/vo/PartTimeEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/vo/RegularEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeMangement/src/kr/co/greenCompany/vo/TempEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_ws.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/ex00.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/src/basic01/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/src/basic01/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/src/basic01/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/src/basic01/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/src/game/Updown.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/src/game/Updown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/src/p20221029_stringexample/StringEx11.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/src/p20221029_stringexample/StringEx11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/src/p20221029_stringexample/StringEx12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/PersonInfo.sel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/sample2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/sample3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/sample_kor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/sample_kor2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberMain2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221109_memberlogin/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/BufferedOutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/BufferedWriterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/FileOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221116_io/FileOutputStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/FileQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/FileTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/FileTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/FileWriterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221116_io/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/PersonDeSerialTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221116_io/PersonSerialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221116_io/PersonSerialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/sample_kor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/xxxx.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDiary/myDiary.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myMember/src/memberproject/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMember/src/memberproject/MemberMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myMember/src/memberproject/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMember/src/memberproject/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySimpleBbs/mySimpleBbs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySimpleBbs/src/diary/IOTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/mySimpleBbs/src/diary/IOTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySimpleBbs/src/exception/ExceptionTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/mySimpleBbs/src/exception/ExceptionTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySimpleBbs/src/exception/ExceptionTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/mySimpleBbs/src/exception/ExceptionTest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySimpleBbs/src/io/IOTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/mySimpleBbs/src/io/IOTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/main/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/service/DBService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/service/IDBService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/vo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/vo/PartTimeEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/vo/RegularEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmployeeMangement/kr/co/greenCompany/vo/TempEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Array01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Array02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Array03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/ByteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CalcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CarFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/CircleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/DeskLamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/DeskLampTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/FunctionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/FunctionTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/HumanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/SquareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/basic01/TriangleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/bookEx/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/bookEx/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/bookEx/PizzaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/bookEx/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Bingo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Bomber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/BomberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Dice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Lotto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/RockScissorsPaper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Seats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/game/Updown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_class01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_class01/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/ArrayTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/MyListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx08.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx09.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221029_stringexample/StringEx12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class02/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class03/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class03/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class03/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class04/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class04/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class04/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/CalcScore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/ManToMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/MemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/PresentSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/PresentSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class05/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class06/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class06/Passenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221030_class06/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/BallTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/BlueBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/CustomerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Enermy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/GreenBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/MyUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/RedBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/TestAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Tiger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/Unit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/UnitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221031_inheritance/VipCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221101/Drink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221101/Machine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221101/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221101/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221101/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/ATest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/AnimalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/CompanyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/PI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/PITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance01/ThisEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/JSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/SquareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_inheritance02/Trapezoid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_vendingmachine/Machine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_vendingmachine/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_vendingmachine/Test02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221103_vendingmachine/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/BubbleGum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/CatchToyMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/CatchToyMachineTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/Doll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/KeyHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104/Toy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/AAA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/BusanTravel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/BusanTravel2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/IService2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/Iservice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/Train.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/Transportation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221104_travel/TravelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_dao/DaoEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_dao/DataAccessObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_dao/MySqlDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_dao/OracleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/AdvancedRemoteControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Buy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/CustomerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Drivable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Employable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/FlyingCar1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/FlyingCar2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/InterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Radio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/RemoteControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Sell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Soundable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/SoundableEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/StaticMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/StaticMethodTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/Television.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface01/TestInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Alien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Interface01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Ship422.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/ShipTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Shippable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221108_interface02/Woman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/AppleSpeaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/LgTV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/SamsungTV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/SonySpeaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/Speaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109/TVUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_member/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_member/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_member/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_member/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_member/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberMain2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221109_memberlogin/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221115_collection/StringBufferEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221115_collection/StringTokenizerEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex00/p20221115_collection/StringTokenizerEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/AppleSpeaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/LgTV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/SamsungTV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/SonySpeaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/Speaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109/TVUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_member/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_member/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_member/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_member/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_member/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberMain2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221109_memberlogin/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/ArrayListEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/MapEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/MapEx02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/MapEx03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/MapStudentEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/MathEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/PointVectorEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/Q.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/Q02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/Q03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/StringBufferEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/StringTokenizerEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/StringTokenizerEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221115_collection/VectorEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/BufferedInputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/BufferedOutputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/BufferedReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/BufferedWriterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileInputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileOutputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/FileWriterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/InputStreamReaderTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/InputStreamReaderTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/InputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/OutStreamWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/OutputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/PersonDeSerialTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221116_io/PersonSerialTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/sample_kor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/xxxx.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/MemberMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/MemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/memberDB.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam/exam/saveDB.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/Diary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/DiaryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/DiaryFileDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/DiaryMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/DiaryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/IDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/IDiaryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/Test_DiaryFileDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/mydiary/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/test/Test_DiaryClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/test/Test_DiaryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/test/Test_DiaryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/test/Test_UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myDiary/test/Test_etc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/IService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/MemberDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/MemberInfo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/MemberMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myMember/memberproject/memberDB.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/bbs/BoardDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/bbs/BoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/bbs/BoardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/bbs/BoardVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/bbs/IBoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/diary/IOTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/diary/diary_20221111_01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/diary/diary_20221114.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/exception/Dummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/exception/ExceptionTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/exception/ExceptionTest04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/integrated/IntegratedMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/integrated/IntegratedMain2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/integrated/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/io/IOTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/io/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/memberproject/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/memberproject/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/memberproject/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/memberproject/MemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBbs/memberproject/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/bbs/BoardDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/bbs/BoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/bbs/BoardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/bbs/BoardVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/bbs/IBoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/member/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/member/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/member/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/member/MemberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mySimpleBds/member/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/lab/Ex01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/map_ex/MapEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/set_ex/SetEx01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/set_ex/SetEx02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/BomberUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/MemberDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject/miniproject/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/GameUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/IService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/MemberDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practiceproject02/practice/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/lab/Ex01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/map_ex/MapEx01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/set_ex/SetEx01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/set_ex/SetEx02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/BomberUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject/src/miniproject/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/GameUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/IService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/MemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceproject02/src/practice/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/src/book/main/BookManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/src/book/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/src/book/service/IBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/BookManagement/src/book/vo/BookVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/main/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/service/DBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/service/IDBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/vo/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/vo/PartTimeEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/vo/RegularEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/EmployeeManagement/src/kr/co/greenCompany/vo/TempEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Array01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Array02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Array03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/ByteTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CalcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CarFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CatTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/CircleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/DeskLamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/DeskLampTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/FunctionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/FunctionTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/HumanTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/PersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/SquareTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/basic01/TriangleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/bookEx/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/bookEx/Pizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/bookEx/PizzaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/bookEx/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/Bingo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/Bomber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/BomberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/Dice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/Lotto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/RockScissorsPaper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/Seats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/game/UpDown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_class01/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_class01/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/ArrayTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/MyListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx09.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221029_stringexample/StringEx11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class02/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class02/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class03/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class03/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class03/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class04/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class04/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class04/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/CalcScore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/Man.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/ManToMan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/MemberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/PresentSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/PresentSetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class05/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class06/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class06/Passenger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221030_class06/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Ball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/BallTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/BlueBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/CustomerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Enermy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/GreenBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/MyUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/PersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/RedBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/TestAnimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Tiger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/Unit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/UnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221031_inheritance/VipCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221101/Drink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221101/Machine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221101/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221101/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221101/UserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/ATest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/AnimalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/CompanyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/PI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/PITest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/StudentTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance01/ThisEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/JSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/SquareTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_inheritance02/Trapezoid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_vendingmachine/Machine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_vendingmachine/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_vendingmachine/Test02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221103_vendingmachine/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/BubbleGum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/CatchToyMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/CatchToyMachineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/Doll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/KeyHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104/Toy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/AAA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/BusanTravel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/BusanTravel2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/IService2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/Iservice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/Train.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/Transportation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221104_travel/TravelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_dao/DaoEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_dao/DataAccessObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_dao/MySqlDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_dao/OracleDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/AdvancedRemoteControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Bicycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/CustomerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Drivable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Employable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/FlyingCar1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/FlyingCar2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/InterfaceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/RemoteControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/SoundableEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/StaticMethodTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/StaticMethodTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/Television.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface01/TestInterface2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Alien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Interface01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Man.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Ship422.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/ShipTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Shippable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex00/src/p20221108_interface02/Woman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Camp2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Camp5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex01_MyGame1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex02_MyGame2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex03_MyGame3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex05_MyGameGeneric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex07_MultiParameter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex08_BoundedCamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Ex09_GenericMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/HumanCamp1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/MachineCamp1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Npc1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P1118/Tank1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/AppleSpeaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/BeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/LgTV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/SamsungTV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/SonySpeaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/Speaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/TV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109/TVUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_member/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_member/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_member/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_member/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_member/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberMain2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221109_memberloginTeacher/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/ArrayListEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/MapEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/MapEx02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/MapEx03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/MapStudentEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/MathEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/PointVectorEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/Q.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/Q02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/Q03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/SetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/StringBufferEx01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/StringTokenizerEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/StringTokenizerEx01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221115_collection/VectorEx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/BufferedInputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/BufferedReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/FileInputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/FileOutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/FileReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/InputStreamReaderTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/InputStreamReaderTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/InputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/OutStreamWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/OutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/PersonSerialTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/p20221116_io/sample2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/MemberMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/MemberServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/memberDB.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/exam/src/exam/saveDB.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/BomberUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_bomber/src/miniproject/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/GameUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/IService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/MemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/miniproject_updown/src/miniproject/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/Diary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/DiaryDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/DiaryFileDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/DiaryMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/DiaryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/IDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/IDiaryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/Test_DiaryFileDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/mydiary/UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/test/Test_DiaryClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/test/Test_DiaryDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/test/Test_DiaryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/test/Test_UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myDiary/src/test/Test_etc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/IService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/MemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/MemberMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/MemberVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/myMember/src/memberproject/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/bbs/BoardDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/bbs/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/bbs/BoardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/bbs/BoardVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/bbs/IBoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/diary/IOTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/diary/diary_20221111_01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/diary/diary_20221114.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/exception/Dummy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/exception/ExceptionTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/exception/ExceptionTest04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/integrated/IntegratedMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/integrated/IntegratedMain2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/integrated/UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/io/IOTest01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/io/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/memberproject/IMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/memberproject/MemberDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/memberproject/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/memberproject/MemberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_workspace/mySimpleBbs/src/memberproject/MemberVO.java" beforeDir="false" />
+    <list default="true" id="7ebb23b7-7bbb-4f8a-bdbf-32d660c8ebe5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_date/DateTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_date/DateTest03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2HkwFzrRivb3YwHY9sRP1N7WLAv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HF4tLesrhkOsT4krw2yvWTgWvI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinseon/dev/Java_ws_intellij&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="p20221108_interface" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BoardTest">
+    <configuration name="BoardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_boardproject.BoardTest" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_boardproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_date.DateTest03" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiffDate02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_date.DiffDate02" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_date.JDBCDateEx" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_date.MyDate" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BoardTest" />
+        <item itemvalue="Application.DateTest03" />
+        <item itemvalue="Application.DiffDate02" />
+        <item itemvalue="Application.MyDate" />
+        <item itemvalue="Application.JDBCDateEx" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75b37f7a-a223-466c-b092-995f9fe213fa" name="Changes" comment="" />
-      <created>1668842290980</created>
+      <changelist id="7ebb23b7-7bbb-4f8a-bdbf-32d660c8ebe5" name="Changes" comment="" />
+      <created>1667867711360</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668842290980</updated>
-      <workItem from="1668842292425" duration="11000" />
+      <updated>1667867711360</updated>
+      <workItem from="1667867712822" duration="10022000" />
+      <workItem from="1667883327715" duration="12889000" />
+      <workItem from="1667897255232" duration="196000" />
+      <workItem from="1667906655181" duration="753000" />
+      <workItem from="1667911568095" duration="5620000" />
+      <workItem from="1667918026566" duration="43000" />
+      <workItem from="1667918071685" duration="14000" />
+      <workItem from="1667918087684" duration="8000" />
+      <workItem from="1667918105094" duration="24000" />
+      <workItem from="1667918150384" duration="99000" />
+      <workItem from="1667918252673" duration="638000" />
+      <workItem from="1667920384552" duration="313000" />
+      <workItem from="1667920926180" duration="265000" />
+      <workItem from="1667921312554" duration="426000" />
+      <workItem from="1667952097638" duration="3554000" />
+      <workItem from="1667959030172" duration="21749000" />
+      <workItem from="1667988580402" duration="15142000" />
+      <workItem from="1668056546701" duration="7354000" />
+      <workItem from="1668063949148" duration="28000" />
+      <workItem from="1668063987997" duration="103000" />
+      <workItem from="1668064542523" duration="88000" />
+      <workItem from="1668064634643" duration="27000" />
+      <workItem from="1668064663516" duration="517000" />
+      <workItem from="1668065235937" duration="1268000" />
+      <workItem from="1668066524135" duration="6000" />
+      <workItem from="1668066620967" duration="4161000" />
+      <workItem from="1668125043503" duration="25938000" />
+      <workItem from="1668167194365" duration="230000" />
+      <workItem from="1668167426366" duration="4693000" />
+      <workItem from="1668264444971" duration="18000" />
+      <workItem from="1668327114522" duration="1568000" />
+      <workItem from="1668352715304" duration="797000" />
+      <workItem from="1668353819564" duration="159000" />
+      <workItem from="1668384343044" duration="12303000" />
+      <workItem from="1668400836105" duration="9367000" />
+      <workItem from="1668411133462" duration="1080000" />
+      <workItem from="1668413805657" duration="1859000" />
+      <workItem from="1668415674457" duration="226000" />
+      <workItem from="1668418404872" duration="6484000" />
+      <workItem from="1668470748083" duration="14070000" />
+      <workItem from="1668488088098" duration="18602000" />
+      <workItem from="1668559561740" duration="11540000" />
+      <workItem from="1668573660892" duration="22194000" />
+      <workItem from="1668643627537" duration="4051000" />
+      <workItem from="1668647695978" duration="250000" />
+      <workItem from="1668647949176" duration="9075000" />
+      <workItem from="1668660399839" duration="12813000" />
+      <workItem from="1668741079364" duration="2160000" />
+      <workItem from="1668747592269" duration="19198000" />
+      <workItem from="1668832871577" duration="28000" />
+      <workItem from="1668834527908" duration="5634000" />
+      <workItem from="1668841380117" duration="4000" />
+      <workItem from="1668842314970" duration="16000" />
+      <workItem from="1668843417994" duration="1467000" />
+      <workItem from="1668856829568" duration="4267000" />
+      <workItem from="1668861114632" duration="4398000" />
+      <workItem from="1668918593182" duration="11844000" />
+      <workItem from="1668988972569" duration="105000" />
+      <workItem from="1669015352813" duration="1378000" />
+      <workItem from="1669036562085" duration="1203000" />
+      <workItem from="1669076844730" duration="12738000" />
+      <workItem from="1669092852789" duration="16426000" />
+      <workItem from="1669159319342" duration="3000" />
+      <workItem from="1669161949367" duration="10835000" />
+      <workItem from="1669172825391" duration="3073000" />
+      <workItem from="1669178000115" duration="18090000" />
     </task>
     <servers />
   </component>
@@ -841,5 +222,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

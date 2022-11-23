@@ -22,4 +22,5 @@ public class Person {
         System.out.println(age + "\n");
 
     }
+
 }

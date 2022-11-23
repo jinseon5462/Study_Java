@@ -9,7 +9,7 @@ public class IOTest01 {
         //1. 파일쓰기
         try {
             //1. 파일선언
-            File file = new File("/Users/jinseon/dev/java_workspace/mySimpleBbs/src/io/abc.txt");
+            File file = new File("/Users/jinseon/dev/Java_ws/mySimpleBbs/src/io/abc.txt");
             //2. 파일 쓰기
             FileWriter fw = new FileWriter(file, false);	// false 새로쓰기, true 이어쓰기
             fw.write("hello\n");

@@ -42,12 +42,12 @@ public class ExceptionTest01 {
     }
     private static  void f1(){
         try {
-            FileReader fr = new FileReader("/Users/jinseon/dev/java_workspace/mySimpleBbs/src/io/abc.txt");
+            FileReader fr = new FileReader("/Users/jinseon/dev/Java_ws/mySimpleBbs/src/io/abc.txt");
         }catch (FileNotFoundException e) {
             System.out.println("파일이 없대요~~");
         }
     }
     private static void f2() throws FileNotFoundException {
-        FileReader fr = new FileReader("/Users/jinseon/dev/java_workspace/mySimpleBbs/src/io/abc.txt");
+        FileReader fr = new FileReader("/Users/jinseon/dev/Java_ws/mySimpleBbs/src/io/abc.txt");
     }
 }
