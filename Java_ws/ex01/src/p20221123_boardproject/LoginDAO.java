@@ -8,7 +8,7 @@ public class LoginDAO {
     final String upw = "1234";
     final String driver = "org.mariadb.jdbc.Driver";
 
-    Connection conn;
+    Connection conn = null;
     PreparedStatement pstmt = null;
     Statement stmt = null;
     ResultSet rs = null;
@@ -17,13 +17,33 @@ public class LoginDAO {
         Class.forName(driver);
         conn = DriverManager.getConnection(url, uid, upw);
         return conn;
-
     }
 
-    public void loginCheck() throws SQLException, ClassNotFoundException {
+
+    public int loginCheck(String id, String pw) throws SQLException, ClassNotFoundException {
         dbConnect();
-        stmt = conn.createStatement();
-        String loginCheck_query = "SELECT * FROM managerlogin WHERE ";
-        rs = stmt.executeQuery(loginCheck_query);
+        String loginCheck_query = "SELECT COUNT(*) FROM managerlogin WHERE id = ? AND pw = ?";
+        pstmt = conn.prepareStatement(loginCheck_query);
+        pstmt.setString(1, id);
+        pstmt.setString(2, pw);
+        rs = pstmt.executeQuery();
+        rs.next();
+        int loginResult = rs.getInt(1);
+        return loginResult;
+    }
+
+    public int gradeCheck(String id, String pw) throws SQLException, ClassNotFoundException {
+        dbConnect();
+        String gradeCheck_query = "SELECT * FROM managerlogin WHERE id = ? AND pw = ?";
+        pstmt = conn.prepareStatement(gradeCheck_query);
+        pstmt.setString(1, id);
+        pstmt.setString(2, pw);
+        rs = pstmt.executeQuery();
+        rs.next();
+        if(rs.getString("grade").equals("master")){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 }

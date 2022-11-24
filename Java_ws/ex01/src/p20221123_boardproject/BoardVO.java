@@ -3,8 +3,7 @@ package p20221123_boardproject;
 import java.util.Date;
 
 public class BoardVO {
-    private int showBno;
-    private int dbBno;
+
     private String title;
     private String content;
     private String writer;
@@ -16,8 +15,6 @@ public class BoardVO {
         this.content = content;
         this.writer = writer;
     }
-
-
 
     public String getTitle() {
         return title;
@@ -43,19 +40,4 @@ public class BoardVO {
         this.writer = writer;
     }
 
-    public int getShowBno() {
-        return showBno;
-    }
-
-    public void setShowBno(int showBno) {
-        this.showBno = showBno;
-    }
-
-    public int getDbBno() {
-        return dbBno;
-    }
-
-    public void setDbBno(int dbBno) {
-        this.dbBno = dbBno;
-    }
 }

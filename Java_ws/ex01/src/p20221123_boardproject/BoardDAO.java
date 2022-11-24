@@ -2,6 +2,8 @@ package p20221123_boardproject;
 
 import java.sql.*;
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BoardDAO {
     Connection conn = null;
@@ -12,6 +14,10 @@ public class BoardDAO {
     final String uid = "root";
     final String upw = "1234";
     final String driver = "org.mariadb.jdbc.Driver";
+    Map<Integer, Integer> list = new HashMap<>();
+    int cnt= 1;
+    ReplyDAO rdao = new ReplyDAO(list);
+
 
     public Connection dbConnect() throws ClassNotFoundException, SQLException {
         Class.forName(driver);
@@ -43,22 +49,24 @@ public class BoardDAO {
         dbConnect();
         String selectOne_query = "SELECT * FROM board WHERE bno = ?";
         pstmt = conn.prepareStatement(selectOne_query);
-        pstmt.setInt(1, bno);
+        pstmt.setInt(1, list.get(bno));
         rs = pstmt.executeQuery();
-        int key = rs.getInt("bno");
+
         rs.next();
-        System.out.println("번호 : " + rs.getInt("bno"));
-        System.out.println("제목 : " + rs.getString("title"));
-        System.out.println("내용 : " + rs.getString("content"));
-        System.out.println("작성자 : " + rs.getString("writer"));
+        System.out.println("\n[공지]\n");
+        System.out.println("[  번호  ] " + bno);
+        System.out.println("[  제목  ] " + rs.getString("title"));
+        System.out.println("[  내용  ] " + rs.getString("content"));
+        System.out.println("[ 작성자 ] " + rs.getString("writer"));
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        System.out.println("작성일자 : " + sdf.format(rs.getTimestamp("date")));
+        System.out.println("[작성일자] " + sdf.format(rs.getTimestamp("date")));
         if(rs.getTimestamp("updatetime") == null){
-            System.out.println();
+            System.out.print("");
         }else{
-            System.out.println("수정일자 : " + sdf.format(rs.getTimestamp("updatetime")));
+            System.out.println("[수정일자] " + sdf.format(rs.getTimestamp("updatetime")));
         }
-        System.out.println();
+
+        rdao.selectOneReply(list.get(bno));
 
         rs.close();
         pstmt.close();
@@ -68,24 +76,31 @@ public class BoardDAO {
     public void selectAll() throws SQLException, ClassNotFoundException {
         dbConnect();
 
+
         stmt = conn.createStatement();
-        String selectAll_query = "SELECT * FROM board";
+        String selectAll_query = "SELECT * FROM board ORDER BY bno DESC";
         rs = stmt.executeQuery(selectAll_query);
 
         while(rs.next()){
-            System.out.println("번호 : " + rs.getInt("bno"));
-            System.out.println("제목 : " + rs.getString("title"));
-            System.out.println("내용 : " + rs.getString("content"));
-            System.out.println("작성자 : " + rs.getString("writer"));
+            int rsCnt = rs.getInt(1);
+
+            list.put(cnt, rsCnt);
+            System.out.println("[   번호   ] " + cnt);
+            cnt++;
+            System.out.println("[  제목" + " (" + rdao.replyCount(rsCnt) + ")] " + rs.getString("title"));
+            //System.out.println("내용 : " + rs.getString("content"));
+            System.out.println("[  작성자  ] " + rs.getString("writer"));
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-            System.out.println("작성일자 : " + sdf.format(rs.getTimestamp("date")));
+            System.out.println("[ 작성일자 ] " + sdf.format(rs.getTimestamp("date")));
             if(rs.getTimestamp("updatetime") == null){
                 System.out.println();
             }else{
-                System.out.println("수정일자 : " + sdf.format(rs.getTimestamp("updatetime")));
+                System.out.println("[수정일자] " + sdf.format(rs.getTimestamp("updatetime")));
+                System.out.println();
             }
-            System.out.println();
         }
+
+        cnt = 1;
         rs.close();
         stmt.close();
         conn.close();
@@ -99,19 +114,21 @@ public class BoardDAO {
         rs = pstmt.executeQuery();
 
         while(rs.next()){
-            System.out.println("번호 : " + rs.getInt("bno"));
-            System.out.println("제목 : " + rs.getString("title"));
-            System.out.println("내용 : " + rs.getString("content"));
-            System.out.println("작성자 : " + rs.getString("writer"));
+            //System.out.print("[번호 : " + cnt);
+            System.out.println("\n[  제목  ] " + rs.getString("title"));
+            System.out.println("[  내용  ] " + rs.getString("content"));
+            System.out.println("[ 작성자 ] " + rs.getString("writer"));
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-            System.out.println("작성일자 : " + sdf.format(rs.getTimestamp("date")));
+            System.out.println("[작성일자] " + sdf.format(rs.getTimestamp("date")));
             if(rs.getTimestamp("updatetime") == null){
-                System.out.println();
+                System.out.println("");
             }else{
-                System.out.println("수정일자 : " + sdf.format(rs.getTimestamp("updatetime")));
+                System.out.println("[수정일자] " + sdf.format(rs.getTimestamp("updatetime")));
+                System.out.println();
             }
-            System.out.println();
         }
+
+
         rs.close();
         pstmt.close();
         conn.close();
@@ -123,12 +140,12 @@ public class BoardDAO {
         String update_qeury = "UPDATE board SET content = ?, updatetime = NOW() WHERE bno = ?";
         pstmt = conn.prepareStatement(update_qeury);
         pstmt.setString(1, content);
-        pstmt.setInt(2, bno);
+        pstmt.setInt(2, list.get(bno));
         int result = pstmt.executeUpdate();
         if(result == 1){
-            System.out.println("\n[게시글 수정 성공]");
+            System.out.println("\n[공지 수정 성공]");
         }else{
-            System.out.println("\n[게시글 수정 실패]");
+            System.out.println("\n[공지 수정 실패]");
         }
         pstmt.close();
         conn.close();
@@ -140,15 +157,26 @@ public class BoardDAO {
         dbConnect();
         String delete_query = "DELETE FROM board WHERE bno = ?";
         pstmt = conn.prepareStatement(delete_query);
-        pstmt.setInt(1, bno);
+        pstmt.setInt(1, list.get(bno));
 
         int result = pstmt.executeUpdate();
         if(result == 1){
-            System.out.println("\n[게시글 삭제 성공]");
+            System.out.println("\n[공지 삭제 성공]");
         }else{
-            System.out.println("\n[게시글 삭제 실패]");
+            System.out.println("\n[공지 삭제 실패]");
         }
         pstmt.close();
         conn.close();
     }
+
+    // Reply
+    public void regReply(int bno, String comments, String writer) throws SQLException, ClassNotFoundException {
+        dbConnect();
+        rdao.regReply(list.get(bno), comments, writer);
+    }
+
+    public void deleteReply(){
+
+    }
+
 }
