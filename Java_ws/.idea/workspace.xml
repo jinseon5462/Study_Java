@@ -3,15 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7ebb23b7-7bbb-4f8a-bdbf-32d660c8ebe5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/test/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/test/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/LoginDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/LoginVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/ReplyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/ReplyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_boardproject/ReplyVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/src/p20221123_date/DateTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/src/p20221123_date/DateTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/BoardVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/LoginDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/LoginDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/ReplyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/ReplyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_boardproject/ReplyVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ex01/p20221123_date/DateTest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ex01/p20221123_date/DateTest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/lab/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/map_ex/MapEx01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/set_ex/SetEx01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/set_ex/SetEx02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P20221121_jdbc/JDBCInsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P20221121_jdbc/JDBCSelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_workspace/ex01/src/P20221121_jdbc/JDBCTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/jinseon/dev/Java_ws&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -65,13 +74,26 @@
       <recent name="p20221108_interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BoardTest">
+  <component name="RunManager" selected="Application.test">
     <configuration name="BoardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p20221123_boardproject.BoardTest" />
       <module name="ex01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="p20221123_boardproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20221123_date.DateTest02" />
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20221123_date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCDateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p20221123_date.JDBCDateEx" />
-      <module name="ex01" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
+      <module name="book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p20221123_date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p20221123_date.MyDate" />
-      <module name="ex01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p20221123_date.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.BoardTest" />
+        <item itemvalue="Application.DateTest02" />
         <item itemvalue="Application.DateTest03" />
         <item itemvalue="Application.DiffDate02" />
-        <item itemvalue="Application.MyDate" />
-        <item itemvalue="Application.JDBCDateEx" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +227,9 @@
       <workItem from="1669210057561" duration="4385000" />
       <workItem from="1669248886080" duration="12485000" />
       <workItem from="1669264981526" duration="9681000" />
-      <workItem from="1669274717500" duration="3717000" />
+      <workItem from="1669274717500" duration="14309000" />
+      <workItem from="1669352325094" duration="32701000" />
+      <workItem from="1669544056326" duration="1672000" />
     </task>
     <servers />
   </component>

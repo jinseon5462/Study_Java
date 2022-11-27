@@ -66,13 +66,17 @@ public class ReplyDAO {
     }
 
     public int replyCount(int bno) throws SQLException, ClassNotFoundException {
-        String replyCount = "SELECT COUNT(rno) FROM reply WHERE bno = ?";
         dbConnect();
+        String replyCount = "SELECT COUNT(rno) FROM reply WHERE bno = ?";
         pstmt = conn.prepareStatement(replyCount);
         pstmt.setInt(1, bno);
         rs = pstmt.executeQuery();
         rs.next();
         int result = rs.getInt(1);
         return result;
+    }
+
+    public void deleteReply(){
+
     }
 }
