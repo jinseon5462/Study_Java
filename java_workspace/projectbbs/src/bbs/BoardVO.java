@@ -4,39 +4,45 @@ import java.sql.Timestamp;
 
 public class BoardVO {
 	private int bno;
-	private String title;
-	private String content;
-	private String writer;
-	private Timestamp date;
-	private Timestamp updatedate;
-	private int view;
-	
-	public BoardVO() {}
-	
-	public BoardVO(String title, String content, String writer) {
-		this.title = title;
-		this.content = content;
-		this.writer = writer;
-	}
-	
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
-	public String getContent() {
-		return content;
-	}
-	public void setContent(String content) {
-		this.content = content;
-	}
-	public String getWriter() {
-		return writer;
-	}
-	public void setWriter(String writer) {
-		this.writer = writer;
-	}
+	private int showBno;
+    private String title;
+    private String content;
+    private String writer;
+    private Timestamp date;
+    private Timestamp updatedate;
+
+    public BoardVO(){}
+
+    public BoardVO(String title, String content, String writer) {
+        this.title = title;
+        this.content = content;
+        this.writer = writer;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getWriter() {
+        return writer;
+    }
+
+    public void setWriter(String writer) {
+        this.writer = writer;
+    }
+
 	public int getBno() {
 		return bno;
 	}
@@ -60,18 +66,20 @@ public class BoardVO {
 	public void setUpdatedate(Timestamp updatedate) {
 		this.updatedate = updatedate;
 	}
-
-	public int getView() {
-		return view;
+	
+	public int getShowBno() {
+		return showBno;
 	}
 
-	public void setView(int view) {
-		this.view = view;
+	public void setShowBno(int showBno) {
+		this.showBno = showBno;
 	}
 
 	@Override
 	public String toString() {
-		return "[게시글 번호 : " + bno + ", 게시글 제목 : " + title + ", 게시글 내용 : " + content + ", 게시글 작성자 : " + writer + ", 게시글 작성일 : "
-				+ date + ", 게시글 수정일 : " + updatedate + ", 게시글 조회수 : " + view + "]";
+		return "[게시글 번호 : " + showBno + ", 제목 : " + title + ", 내용 : " + content + ", 작성자 : " + writer + ", 등록일자 : "
+				+ date + ", 수정일자 : " + updatedate + "]";
 	}
+    
+
 }
